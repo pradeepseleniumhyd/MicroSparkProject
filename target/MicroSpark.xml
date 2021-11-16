@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="36.902">
+    <testcase classname="Validate MicroSpark Careers Page" name="MicroSpark Careers Page Validation" time="20.629">
+        <system-out><![CDATA[Given user opens the browser................................................passed
+When user enters the url....................................................passed
+Then user able to see the Micro Spark Home Page.............................passed
+When user click on careers menu in homepage.................................passed
+Then user able to see Careers page..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validate MicroSpark Home Page" name="MicroSpark Home Page Validation" time="16.035">
+        <system-out><![CDATA[Given user opens the browser................................................passed
+When user enters the url....................................................passed
+Then user able to see the Micro Spark Home Page.............................passed
+And user verifies all the fields in the home page...........................passed
+]]></system-out>
+    </testcase>
+</testsuite>

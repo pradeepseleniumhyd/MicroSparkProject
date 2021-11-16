@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4322490100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens the browser",
+            "match": {
+              "location": "com.microspark.stepDef.HomePageStepDef.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13352725700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the url",
+            "match": {
+              "location": "com.microspark.stepDef.HomePageStepDef.user_enters_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29642200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user able to see the Micro Spark Home Page",
+            "match": {
+              "location": "com.microspark.stepDef.HomePageStepDef.user_able_to_see_the_micro_spark_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-16T14:38:12.164Z",
+        "line": 9,
+        "name": "MicroSpark Careers Page Validation",
+        "description": "",
+        "id": "validate-microspark-careers-page;microspark-careers-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2782978900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user click on careers menu in homepage",
+            "match": {
+              "location": "com.microspark.stepDef.HomePageStepDef.user_click_on_careers_menu_in_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8863200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user able to see Careers page",
+            "match": {
+              "location": "com.microspark.stepDef.HomePageStepDef.user_able_to_see_careers_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Careers"
+          }
+        ]
+      }
+    ],
+    "name": "Validate MicroSpark Careers Page",
+    "description": "",
+    "id": "validate-microspark-careers-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/microspark/features/Careers.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-16T14:38:32.869Z",
+        "line": 3,
+        "name": "MicroSpark Home Page Validation",
+        "description": "",
+        "id": "validate-microspark-home-page;microspark-home-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6469013700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens the browser",
+            "match": {
+              "location": "com.microspark.stepDef.HomePageStepDef.user_opens_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9503478200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the url",
+            "match": {
+              "location": "com.microspark.stepDef.HomePageStepDef.user_enters_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18348600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user able to see the Micro Spark Home Page",
+            "match": {
+              "location": "com.microspark.stepDef.HomePageStepDef.user_able_to_see_the_micro_spark_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33686900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user verifies all the fields in the home page",
+            "match": {
+              "location": "com.microspark.stepDef.HomePageStepDef.user_verifies_all_the_fields_in_the_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate MicroSpark Home Page",
+    "description": "",
+    "id": "validate-microspark-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/microspark/features/HomePage.feature",
+    "tags": []
+  }
+]
